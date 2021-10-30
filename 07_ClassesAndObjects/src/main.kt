@@ -13,12 +13,14 @@ fun main() {
     //selectedTV.getVolumeDown()
     println("------------")
 
-    val a= TV.Channels.channelSetting()
-
+    // val a= TV.Channels.channelSetting()
 
 
     //println(a)
 
+    // selectedTV.getChannels(a)
+
+    val a = TV.Channels.getArray()
     selectedTV.getChannels(a)
 
 }
